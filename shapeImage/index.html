@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shapeimage</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="/src/my-element.ts"></script>
+  </head>
+  <body>
+    <div
+      id="app"
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        background-color: #f0f0f0;
+      "
+    >
+      <shape-image
+        fp="0.3,0.5"
+        sc="0.5"
+        imgSrc="/public/pexels.jpg"
+        shapeSrc="http://localhost:5173/public/shape.svg"
+        width="600"
+        height="600"
+      >
+      </shape-image>
+    </div>
+  </body>
+</html>
